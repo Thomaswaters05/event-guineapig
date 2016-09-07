@@ -22,11 +22,17 @@ Note: Output target is the output-target element.
 7.  When you type characters into the input field, the output element should mirror the text in the input field.
 
 8.  When you click the "Add color" button, the guinea-pig element's text color should change to blue.
+
 9.  When you click the "Hulkify" button, the guinea-pig element's font size should become much larger.
+
 10. When you click the "Capture it" button, the guinea-pig element should have a border added to it.
+
 11. When you click the "Rounded" button, the guinea-pig element's border should become rounded.
+
 12. The first section's text should be bold.
+
 13. The last section's text should be bold and italicized.
+
 14. Make the buttons stop appearing next to each other as inline elements. Change them into block elements.
 
 ```
