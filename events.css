@@ -1,3 +1,25 @@
 body {
   background: skyblue;
 }
+
+.red {
+  color: red;
+}
+
+.rounded {
+  border: dotted;
+  border-radius: 25px;
+}
+
+#first{
+  font-weight: bold;
+}
+
+#last{
+  font-weight: bold;
+  font-style: italic;
+}
+
+button {
+  display: block;
+}

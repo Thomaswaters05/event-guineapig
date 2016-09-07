@@ -1,4 +1,11 @@
 document.getElementById("keypress-input").addEventListener("keypress", mirrored);
+document.getElementById("add-color").addEventListener("click", colors);
+document.getElementById("make-large").addEventListener("click", titanUp);
+document.getElementById("add-border").addEventListener("click", borderUp);
+document.getElementById("add-rounding").addEventListener("click", roundUp);
+
+
+
 
 
 var art = document.querySelectorAll(".article-section"); // querySelector puts in an array so you can modigy
@@ -31,5 +38,22 @@ function hoverOff() {
 function mirrored(e) {
   outputs.innerHTML += e.key;
 
+}
+
+function colors() {
+  document.getElementById("guinea-pig").classList.add("red");
+}
+
+
+function titanUp() {
+  document.getElementById("guinea-pig").style.fontSize = "xx-large";
+}
+
+function borderUp() {
+  document.getElementById("guinea-pig").style.border = "thick solid";
+}
+
+function roundUp() {
+  document.getElementById("guinea-pig").classList.add("rounded");
 }
 
