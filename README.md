@@ -11,7 +11,7 @@
 
 3.  Link in a CSS file named events.css. You'll be using element.classList to manipulate the CSS classes on elements.
 
-Note: Output target is the output-target element.
+            **Note: Output target is the output-target element.**
 
 4.  When any section is clicked the output target text should be "You clicked on the {text of the section} section"
 
